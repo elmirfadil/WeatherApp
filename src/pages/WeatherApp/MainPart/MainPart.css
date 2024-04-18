@@ -1,0 +1,36 @@
+.mainPart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
+.mainPart-block {
+  background: rgb(240, 239, 239);
+  padding: 180px 150px;
+  border-radius: 20px;
+}
+.mainPart_mini {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
+}
+.mainPart_mini h1 {
+  font-size: 55px;
+  font-weight: 700;
+  margin: 25px 0;
+}
+.mainPart_mini h4 {
+  color: grey;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+.mainPart_mini button {
+  padding: 13px 40px;
+  background: rgb(33, 142, 237);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 70px;
+  cursor: pointer;
+}
